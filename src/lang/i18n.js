@@ -7,7 +7,17 @@ const resources = {
   en: {
     translation: {
       "Welcome to React": "Welcome to React and react-i18next",
-      '/':"home", '/about/':"about", '/users/':"users"
+      '/': "home", 
+      '/about/': "about", 
+      '/users/': "users"
+    }
+  },
+  ru: {
+    translation: {
+      "Welcome to React": "увуыу ыаыуауы ыуауы ",
+      '/': "Дом", 
+      '/about/': "об", 
+      '/users/': "юзеры"
     }
   }
 };
@@ -25,4 +35,4 @@ i18n
     }
   });
 
-  export default i18n;
+export default i18n;
