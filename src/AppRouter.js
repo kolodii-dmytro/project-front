@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"; 
 import {  Route } from "react-router-dom";
 
 function Index() {
-    return <h2>Home</h2>;
+    return <h2>Home2</h2>;
   }
   
   function About() {
