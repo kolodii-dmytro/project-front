@@ -1,0 +1,18 @@
+.menu-items-holder{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    .menu-item{
+        display: flex;
+        margin: 0.2rem;
+        border-radius: 0.2rem;
+        border: 0.1rem solid black;
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 0.1rem 0.5rem;
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px dashed black;
+    .right-side{
+        display: flex;
+        flex-direction: row;
+    }
+}
